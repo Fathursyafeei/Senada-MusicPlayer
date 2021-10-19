@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingScreen"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="26dp"
+    android:background="@drawable/bglanding">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/logo_l1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/logo"
+        android:paddingLeft="-26dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_l1"
+        android:paddingTop="20dp"
+        android:text="Temukan Musik\nFavoritmu Hanya di Senada"
+        android:textStyle="bold"
+        android:lineHeight="30sp"
+        android:textSize="26sp"
+        android:textColor="#fdc921"
+        android:fontFamily="@font/nexabold"/>
+
+    <TextView
+        android:id="@+id/txt_l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_l1"
+        android:layout_marginTop="6dp"
+        android:text="Jelajahi musik yang kamu\nsuka dengan mudah"
+        android:textSize="18sp"
+        android:fontFamily="@font/nexa"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"
+        android:lineHeight="10pt"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jelajahi Sekarang"
+        android:background="@drawable/rounded"
+        android:textColor="#fffdf7"
+        android:textSize="16sp"
+        android:paddingHorizontal="32px"
+        android:paddingVertical="18px"
+        android:layout_below="@id/txt_l2"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/nexabold"
+        android:letterSpacing="0.1"
+        android:textAllCaps="false"
+        android:elevation="8dp"/>
+
+
+
+
+  </RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "97412656147",
+    "project_id": "senada-1bfe1",
+    "storage_bucket": "senada-1bfe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97412656147:android:48cdc4fe78f6fddae163e6",
+        "android_client_info": {
+          "package_name": "com.example.senada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97412656147-r6mo2onu9mp7sggg81lbnd4kqn6kfl6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRdNUmx-d2lB-MNV_VxygjoAQuej3qJaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97412656147-r6mo2onu9mp7sggg81lbnd4kqn6kfl6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
